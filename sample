@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A sample webpage demonstrating semantic HTML, lists, images, and links.">
+    <title>Sample Webpage</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Sample Webpage</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#images">Images</a></li>
+                <li><a href="#resources">Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About This Page</h2>
+            <p>This is a sample webpage created to demonstrate the use of semantic HTML tags, lists, images, and external links. It is designed to be simple and accessible.</p>
+        </section>
+
+        <section id="images">
+            <h2>Images</h2>
+            <p>Here are three images for demonstration purposes:</p>
+            <div>
+                <img src="https://via.placeholder.com/300" alt="Placeholder Image 1">
+                <img src="https://via.placeholder.com/300" alt="Placeholder Image 2">
+                <img src="https://via.placeholder.com/300" alt="Placeholder Image 3">
+            </div>
+        </section>
+
+        <section id="resources">
+            <h2>Resources</h2>
+            <p>Here are some useful resources:</p>
+            <ul>
+                <li><a href="https://www.w3schools.com/html/" target="_blank">W3Schools HTML Tutorial</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs: HTML</a></li>
+                <li><a href="https://validator.w3.org/" target="_blank">W3C Markup Validation Service</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Sample Webpage. All rights reserved.</p>
+    </footer>
+</body>
+</html>
